@@ -1,0 +1,60 @@
+.filter-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  place-items: center;
+  position: absolute;
+  height: 60px;
+  width: 80%;
+  max-width: 1000px;
+  left: 50%;
+  transform: translate(-50%, +50%);
+  background-color: white !important;
+  cursor: pointer;
+  border-radius: 5px;
+
+  bottom: 0;
+}
+.filter-btn {
+  position: relative;
+  margin-left: 15px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background-color: hsl(180, 52%, 96%);
+  padding: 5px 35px;
+  color: hsl(180, 26%, 16%);
+  font-weight: bold;
+}
+
+.filter-btn span {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  background-color: hsl(180, 29%, 50%);
+  height: 100%;
+  top: 0;
+  cursor: pointer;
+  color: white;
+  bottom: 0;
+  font-size: 17px;
+  right: 0;
+  width: 20px;
+}
+.filter-btn span:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.clear-btn {
+  border: none;
+  color: hsl(180, 29%, 50%);
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  border-bottom: 1px solid hsl(180, 29%, 50%);
+}

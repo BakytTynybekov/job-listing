@@ -1,0 +1,99 @@
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 25px;
+
+}
+.job-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+ 
+}
+
+.company-info {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.company-logo {
+  img{
+    width: 120px;
+  }
+  
+}
+
+.company-name {
+  color:  hsl(180, 29%, 50%);
+  font-size: 18px;
+  margin: 0;
+
+  span {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}
+
+
+.new {
+  display: inline-block;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+.featured {
+  display: inline-block;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 5px;
+}
+
+.job-name {
+color: hsl(180, 14%, 20%);
+font-size: 23px;
+font-weight: bold;
+margin: 0;
+}
+
+.job-about {
+  
+  display: flex;
+  gap: 20px;
+  
+  p {
+    margin: 0;
+    color:  hsl(180, 8%, 52%)  ;
+    font-size: 15px;
+  }
+}
+
+.job-languages {
+
+  display: flex;
+  gap: 20px;
+  z-index: 10000;
+
+
+  button {
+    display: inline-block;
+    border: none;
+    background-color: hsl(180, 52%, 96%);
+    padding: 10px 15px;
+    color:  hsl(180, 26%, 16%);
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: hsl(180, 29%, 50%);
+      color: white;
+    }
+    
+  }
+
+}
